@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicin</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        .logo-carousel .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px; /* Ajusta la altura según sea necesario */
+        }
+        .logo-carousel img {
+            max-height: 100%;
+            max-width: 100px; /* Ajusta el tamaño máximo del logo */
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="https://via.placeholder.com/150x40" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="container-fluid p-0 m-0">
+                <div class="hero">
+                    <div class="hero-content text-center">
+                        <h1 class="display-4">Bienvenido a Mi Sitio</h1>
+                        <p class="lead">Este es un ejemplo de un hero fullscreen responsivo en Bootstrap.</p>
+                        <a href="#" class="btn btn-primary btn-lg">Aprende Más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+            <div class="container mt-5 top">
+                <div class="row">
+                    <div class="col-md-4 d-none d-sm-block">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="container mt-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="feature-block text-center">
+                                        <i class="fas fa-cogs fa-3x"></i>
+                                        <h3>Título del Bloque</h3>
+                                        <p>Esta es una breve descripción del bloque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-sm-block">
+                    </div>
+                </div>
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col-md-2 p-0 m-0">
+                            <div class="item" style="background-image: url('https://via.placeholder.com/300x200');">
+                                <div class="overlay">Texto 1</div>
+                                <div class="hidden-paragraph">Este es un párrafo oculto que aparece al hacer hover.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p-0 m-0">
+                            <div class="item" style="background-image: url('https://via.placeholder.com/300x200');">
+                                <div class="overlay">Texto 2</div>
+                                <div class="hidden-paragraph">Este es un párrafo oculto que aparece al hacer hover.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p-0 m-0">
+                            <div class="item" style="background-image: url('https://via.placeholder.com/300x200');">
+                                <div class="overlay">Texto 3</div>
+                                <div class="hidden-paragraph">Este es un párrafo oculto que aparece al hacer hover.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p-0 m-0">
+                            <div class="item" style="background-image: url('https://via.placeholder.com/300x200');">
+                                <div class="overlay">Texto 4</div>
+                                <div class="hidden-paragraph">Este es un párrafo oculto que aparece al hacer hover.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p-0 m-0">
+                            <div class="item" style="background-image: url('https://via.placeholder.com/300x200');">
+                                <div class="overlay">Texto 5</div>
+                                <div class="hidden-paragraph">Este es un párrafo oculto que aparece al hacer hover.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 p-0 m-0">
+                            <div class="item" style="background-image: url('https://via.placeholder.com/300x200');">
+                                <div class="overlay">Texto 6</div>
+                                <div class="hidden-paragraph">Este es un párrafo oculto que aparece al hacer hover.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="maquinarias">
+            <div class="container mt-5 top">
+                <div class="row">
+                    <div class="col-md-4 d-none d-sm-block">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="container mt-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="feature-block text-center">
+                                        <i class="fas fa-cogs fa-3x"></i>
+                                        <h3>Título del Bloque</h3>
+                                        <p>Esta es una breve descripción del bloque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-sm-block">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="container mt-5">
+                                <div class="card maq">
+                                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container mt-5">
+                                <div class="card maq">
+                                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container mt-5">
+                                <div class="card maq">
+                                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container mt-5">
+                                <div class="card maq">
+                                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container mt-5">
+                                <div class="card maq">
+                                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container mt-5">
+                                <div class="card maq">
+                                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="logoCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/100x100" class="d-block mx-auto" alt="Logo 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/100x100" class="d-block mx-auto" alt="Logo 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/100x100" class="d-block mx-auto" alt="Logo 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#logoCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#logoCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap Bundle with Popper (Bootstrap 5 does not require jQuery) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-9rG4lGtB7RLTpAjaStQ5YMyJzbcg0Ki1hAnKDZr51Z1a75TfImd5PEE0vlXLIGU/n6N9mbQ/N6BxKMRU3/9D9w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Script personalizado -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
